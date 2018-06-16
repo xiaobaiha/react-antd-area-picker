@@ -4,7 +4,9 @@
   "description": "A 3 level China area picker using react and antd. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress",
+    "watch": "webpack --watch --progress"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,11 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "css-loader": "^0.28.11",
-    "style-loader": "^0.21.0"
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.19"
   }
 }
