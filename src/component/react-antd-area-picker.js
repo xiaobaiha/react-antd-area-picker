@@ -3,7 +3,7 @@ import './react-antd-area-picker.css';
 
 class AreaPicker extends React.Component{
   render(){
-    return ("Hello npm!");
+    return (<div>Hello npm!</div>);
   }
 }
 
