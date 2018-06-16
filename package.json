@@ -1,0 +1,32 @@
+{
+  "name": "react-antd-area-picker",
+  "version": "1.0.0",
+  "description": "A 3 level China area picker using react and antd. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaobaiha/react-antd-area-picker.git"
+  },
+  "keywords": [
+    "area",
+    "picker",
+    "react",
+    "antd"
+  ],
+  "author": "xiaobaihaha0001@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaobaiha/react-antd-area-picker/issues"
+  },
+  "homepage": "https://github.com/xiaobaiha/react-antd-area-picker#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0"
+  }
+}
