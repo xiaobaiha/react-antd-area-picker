@@ -76,7 +76,7 @@ class AreaPicker extends React.Component{
       // console.log("level:", nextProps.level);
       this.setState({level: level});
     }
-    if('disabled' in nextProps && nextProps.disabled){
+    if('disabled' in nextProps && [true,false].includes(nextProps.disabled)){
       const disabled = nextProps.disabled;
       // console.log("disabled:", nextProps.disabled);
       this.setState({disabled: disabled});
